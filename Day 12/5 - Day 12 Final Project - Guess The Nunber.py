@@ -60,7 +60,7 @@ while wantingToPlay:
 
     guess_the_number(attempts)
 
-    ch = input("Press 'stop' to stop playing and any other key to continue playing: ").lower()
+    ch = input("Press 'stop' to stop playing or press any other key to continue playing: ").lower()
     
     if ch == 'stop':
         print("Thanks for playing our game.")
