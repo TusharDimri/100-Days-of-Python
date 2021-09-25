@@ -3,6 +3,18 @@ import random
 from os import system
 from time import sleep
 
+EASY_LEVEL_TURNS = 10
+HARD_LEVEL_TURNS = 5
+
+def set_difficulty():
+    level = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
+    if level == 'easy':
+        return EASY_LEVEL_TURNS
+    elif level == 'hard':
+        return  HARD_LEVEL_TURNS
+    else:
+        return 0
+
 def guess_the_number(attempts):
     while attempts > 0:
         if attempts == 1:
@@ -38,13 +50,9 @@ while wantingToPlay:
     print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100.")
     guess_num = random.randint(1, 100)
 
-    choice = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
-
-    if choice == 'easy':
-        attempts = 10
-    elif choice == 'hard':
-        attempts = 5
-    else:
+    attempts = set_difficulty()
+    
+    if attempts == 0:
         print("Invalid Input.")
         sleep(2)
         _ = system('cls')
@@ -55,7 +63,7 @@ while wantingToPlay:
     ch = input("Press 'stop' to stop playing and any other key to continue playing: ").lower()
     
     if ch == 'stop':
-        print("Thanks for playing out game.")
+        print("Thanks for playing our game.")
         wantingToPlay = False
     else:
         _ = system('cls')
