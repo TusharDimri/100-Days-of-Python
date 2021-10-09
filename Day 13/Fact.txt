@@ -1,0 +1,1 @@
+The first documented bug was actually found by Grace Hopper(One of the first programmers and one of the poineers of this job).In her notes you'll find a moth that's been taped to the notebook. This noth was found in a relay that was preventing her code from runnning properly. This was the first actual case of a bug that's been found in a computer. 
