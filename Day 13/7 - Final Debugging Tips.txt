@@ -1,0 +1,9 @@
+1.  Take a Break: Just sitting and starinng at your screen won't help. Take a break and after that tackle your problem with a fresh mind. 
+
+2. Ask a friend or a mentor or simply someone who can help: They won't make the same assumptions that you've made. They can look at the code with their perspective.  If somebody offers to help with you're code then you can offrer someone to help them with their code. This process makes learning more fun and makes you a better programmer.
+
+3. Run Often: Run your code often. Don't wait until you've written loads and loads of code to hit run with lots of bugs. Run your code after every little execution. This is really helpful and helps you remove a lot of bugs while coding.
+
+4. Ask Stack Overflow(Simply Google): Best way to fix an issue that you don't have an idea on how to solve and are unique. This shoild be a last resort and you shoud'nt stack overflow all your issues.
+
+Bugs are part of every programmers life. Everyone create bugs while programming. You should learn from your bugs. Don't let the bugs demotivate you and keep coding.

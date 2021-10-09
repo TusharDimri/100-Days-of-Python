@@ -22,4 +22,4 @@ def mutate(a_list):
 
 mutate([1,2,3,5,8,13])
 
-#  I used pythontutor.com to visualize this code in a debugger and then fiunf the bug and fixed it.
+#  I used pythontutor.com to visualize this code in a debugger and then fiunf the bug and fixed it. Inside most debuggers you can put a breakpoint to sop what you're doing at this particular line. At that point you can examine what all the functions and variables are doing.
