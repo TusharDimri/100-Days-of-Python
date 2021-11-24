@@ -124,6 +124,6 @@ while machineOn:
         print(f"Water: {resources['water']}\n"
               f"Milk: {resources['milk']}\n"
               f"Coffee: {resources['coffee']}\n"
-              f"Money: {resources['money']}")
+              f"Money: ${resources['money']}")
     else:
         getOrder(choice)
