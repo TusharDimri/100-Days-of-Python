@@ -5,15 +5,11 @@ screen = Screen()
 screen.setup(height=500, width=500)
 
 colors = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"]
-
-class Tutles(object):
-    pass
+y_pos = [120, 80, 40, 0, -40, -80, -120]
+turtles = []
 
 user_bet = screen.textinput(title="Make a bet: ", prompt="Which Turtle will win the race? Enter a color:")
-print(user_bet)
 
-turtles = []
-y_pos = [120, 80, 40, 0, -40, -80, -120]
 
 for i in range(7):
     t = Turtle(shape="turtle")
