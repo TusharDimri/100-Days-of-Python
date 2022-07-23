@@ -45,9 +45,10 @@ while len(guessed_states) < 50:
     user_answer = screen.textinput(title=f"{len(guessed_states)}/50 States Correct", prompt="Name a U.S. state").lower()
 
 states_to_learn = []
-for state in states_data["state"]:
-    if state not in guessed_states:
-        states_to_learn.append(state)
+# for state in states_data["state"]:
+#     if state not in guessed_states:
+#         states_to_learn.append(state)
+states_to_learn = [state for state in states_data["state"] if state not in guessed_states]
 
 states_to_learn_dict = {
     "state":states_to_learn 
