@@ -12,7 +12,8 @@ class Car:
         # self.make = kwargs["make"]
         self.make = kwargs.get("make")
         self.model = kwargs.get("model")
+        self.color = kwargs.get("color")
         # If the given key does'nt exist in the dictionary, then get() method return none so we have optional keyword arguments.
 
 myCar = Car(make="Nissan", model="GT-R")
-print(myCar.model, myCar.make)
+print(myCar.model, myCar.make, myCar.color)
