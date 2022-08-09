@@ -1,0 +1,10 @@
+When we're browsing the web, we can see that there are a lot of websites that carry a whole bunch of data. For example, in Yahoo weather we can see next week's weather predictions for any city in the world, we can go to coinbase and check the value of various cryptocurrencies, we can go to the NBA website and look at various stats about basketball players and the list goes on.
+
+What if we want to use the data they have? How can we tap into it and use it in our own programs?
+That's where Application Programming Interfaces (APIs) come into play. They are a set of commands, functions, protocols and objects that programmers can use to create software or interact with an external system(For example, pulling live data from websites).
+
+An API is an interface or rather a sort of barrier between our program and an external system. What we're trying to do is that we're trying to use the rules that the API has prescribes to make a request to the external system for a piece of data and if we have structures our request according to all of the requirements that this external system has set out in their API, then they will respond to us appropriately and give us the data that we want. But, if we don't follow the rules, then our request will be invalid.
+
+Yahoo weather has a Yahooweather API (There is a Yahoo Finance API too), Coinbase has its own API too and NBA has its API too.
+
+We can imagine these websites as restaurants and the data that powers these websites as kitchen. We can't really go to a restaurant as a member of the public and just go inside their kitchen. We have a menu that is kind of like the interface between us and the restaurant. It's the thing that tells us what we can order and what we can't. Essentially, an API is just that. It's the menu. It lists all of the things that we can do to interact with an external system such as a website that carries data. 
