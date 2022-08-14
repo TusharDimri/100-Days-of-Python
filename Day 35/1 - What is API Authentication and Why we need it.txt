@@ -1,0 +1,16 @@
+We have already learned about API request, API endpoint and API parameters. Previously, all the APIs we used were free APIs. We could access all parts of those APIs without any sort of payment. This is because the data contained in those APIs is very simple and nonbody is going to use that data to build ver fancy or big commercial application.
+
+On the other hand, there is other type of data which is very valuable. For example, weather data. This is because it takes a lot of time and energy for some company to collect all of this data and provide it to us. In these cases some of these APIs can have a paid tier. So, we actually have to pay if we're running an application or if we have a company that needs to get this data very frequently and we need to get large amounts of data.
+
+Why do people charge for APIs anyway?
+If we think about something simple like the weather, it's not actually that simple. How can we get the weather if we're asked to figure out the weather without the help of some website or tool.
+
+Open weather map has access to around 4000 weather stations across the globe and then their data scientists will take the weather data and look at the satellite images, and process te data in order to figure out the weather and predict the weather for each city in the world. As we can imagine all of this comes at the cost of maintaining such a large business and it's resonable that we have to pay for it.
+
+If we own some sort of privileged piece of data that we are constantly updating, or actively generating , for example weather data, financial data, etc. then it is resonable to charge for this data especially if someone is going to rely on it heavily in order to build a commercial app or a company. 
+
+But luckily, most of these APIs provide a free tier that allows us to test out the application and if we want to use the API for learning purposes then we don't have to pay for it. 
+
+How can we prevent people from abusing these free tiers of API services. Anyone can say that they are just learning and then use the data for your big company. The way that this issue is overcome is through the use of API keys. This is almost like our personal account number and password. API providers use this to track how much we're using their API and authorize or deny us access.
+
+Different API providers have different ways to authentiate but most of them involve some sort of an API key.
