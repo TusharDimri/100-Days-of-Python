@@ -1,7 +1,4 @@
-from json import load
 from datetime import datetime
-from turtle import update
-from urllib import response
 import requests
 import os
 from dotenv import load_dotenv
