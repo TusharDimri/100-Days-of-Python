@@ -24,3 +24,6 @@ def get_product_price(product_url="https://www.amazon.com/dp/B075CYMYK6?psc=1&re
     }
 
     return product_details
+
+if __name__=="__main__":
+    print(get_product_price())
